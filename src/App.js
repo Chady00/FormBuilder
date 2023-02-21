@@ -1,7 +1,12 @@
 import "./App.css";
 import Form from "./Form";
 import Header from "./Header";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter,
+  HashRouter as Router,
+  Route,
+  Switch,
+} from "react-router-dom";
 import FormAdder from "./FormAdder";
 
 function App() {
