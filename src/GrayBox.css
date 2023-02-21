@@ -1,0 +1,42 @@
+.gray-box {
+  width: 35px;
+  height: 30px;
+  font-weight: 500;
+  color: #7e8185;
+  text-align: center;
+  padding-bottom: 1px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7px;
+  border-radius: 5px;
+  margin-right: 5px;
+  line-height: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  animation: slideIn 0.7s ease-out;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.gray-box:hover {
+  background-color: #dddede;
+}
+.add-option-button {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 700px;
+  background-color: #f7ffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+  transition: border 0.2s;
+  border: 1px solid rgb(208, 208, 208);
+}

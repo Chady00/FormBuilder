@@ -1,0 +1,28 @@
+form {
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.searchBar {
+  padding: 15px;
+  width: 700px;
+  border: none;
+  border-radius: 7px;
+  background-color: #f1f3f4;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #032a39;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: rgb(192, 183, 183);
+  box-shadow: 0px 0px 5px rgb(255, 12, 12);
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #c8dae0;
+}

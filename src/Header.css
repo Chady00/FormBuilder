@@ -1,0 +1,96 @@
+.header {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(215, 215, 215);
+}
+.header2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(215, 215, 215);
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin-top: -3px; /* adjust as needed to remove the space */
+  padding: 0;
+}
+
+.button {
+  padding: 10px 10px;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  margin-top: 70px;
+  text-align: center;
+  cursor: pointer;
+  color: #3f454a;
+  border-radius: 3px;
+}
+
+.button:hover {
+  background-color: white;
+}
+
+@media (min-resolution: 250dpi) {
+  p {
+    font-size: 9px;
+  }
+}
+@media (min-resolution: 450dpi) {
+  p {
+    display: none;
+  }
+}
+@media (min-resolution: 350dpi) {
+  .specific-button {
+    display: none;
+  }
+}
+@media (min-resolution: 350dpi) {
+  .preview {
+    display: none;
+  }
+}
+
+.star {
+  position: relative;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0.9em;
+  margin-right: 0.9em;
+  margin-bottom: 1.2em;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0.7em solid #c4c6ca;
+  border-left: 0.3em solid transparent;
+  font-size: 24px;
+  color: white; /* set the color of the star to white */
+}
+
+.star:before,
+.star:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0.6em;
+  left: -1em;
+  border-right: 1em solid transparent;
+  border-bottom: 0.7em solid #c4c6ca;
+  border-left: 1em solid transparent;
+  transform: rotate(-35deg);
+}
+
+.star:after {
+  transform: rotate(35deg);
+}

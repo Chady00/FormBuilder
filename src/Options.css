@@ -1,0 +1,64 @@
+input[type="radio"] {
+  transform: scale(1.5);
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.delete-button {
+  margin-right: 20px;
+  display: block;
+  height: 35px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font: #8c8f93;
+  font-size: 15px;
+}
+
+.delete-button:hover {
+  background-color: #f8f9fa;
+}
+.switch input[type="checkbox"] {
+  display: none;
+}
+
+.switch label {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-top: 25px;
+  width: 45px;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 25px;
+  transition: background-color 0.2s ease;
+}
+
+.switch label:before {
+  content: "";
+  position: absolute;
+  top: 2.5px;
+  left: 2.5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  transition: transform 0.2s ease;
+}
+
+.switch input[type="checkbox"]:checked + label {
+  background-color: #195e8c;
+}
+
+.switch input[type="checkbox"]:checked + label:before {
+  transform: translateX(25px);
+}
